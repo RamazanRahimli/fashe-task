@@ -1,0 +1,265 @@
+header .allHeaderBox {
+  width: 100%;
+  background-color: #F5F5F5;
+}
+header .allHeaderBox .topHeader .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 0;
+  color: #888888;
+  background-color: #F5F5F5;
+}
+header .allHeaderBox .topHeader .container .iconBox {
+  display: flex;
+  gap: 20px;
+}
+header .allHeaderBox .topHeader .container .iconBox i {
+  cursor: pointer;
+}
+header .allHeaderBox .topHeader .container .iconBox i:hover {
+  color: red;
+}
+header .allHeaderBox .topHeader .container span {
+  cursor: pointer;
+}
+header .allHeaderBox .topHeader .container select {
+  cursor: pointer;
+  padding: 5px 10px;
+}
+header .allHeaderBox .bottomHeader {
+  background-color: white;
+  position: sticky;
+  top: 0;
+}
+header .allHeaderBox .bottomHeader .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+header .allHeaderBox .bottomHeader .container .menuBox .homeBox {
+  display: none;
+  position: relative;
+}
+header .allHeaderBox .bottomHeader .container .menuBox ul .homeTag {
+  padding: 22px 0;
+}
+header .allHeaderBox .bottomHeader .container .menuBox:hover .homeBox {
+  display: block;
+  background-color: black;
+  position: absolute;
+  top: 70px;
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+header .allHeaderBox .bottomHeader .container .menuBox:hover .homeBox a {
+  color: white;
+}
+header .allHeaderBox .bottomHeader .container .menuBox:hover .homeBox a:hover {
+  color: red;
+}
+header .allHeaderBox .bottomHeader .container .menuBox ul {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  list-style-type: none;
+}
+header .allHeaderBox .bottomHeader .container .menuBox ul a {
+  text-decoration: none;
+  color: #515151;
+  font-weight: 400;
+}
+header .allHeaderBox .bottomHeader .container .menuBox ul a:hover {
+  text-decoration: underline;
+}
+header .allHeaderBox .bottomHeader .container .menuBox .saleTag {
+  color: #E65540;
+}
+header .allHeaderBox .bottomHeader .container .logoBox {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding: 5px 0;
+}
+header .allHeaderBox .bottomHeader .container .logoBox .cartBox {
+  border-left: 1px solid #F5F5F5;
+  padding: 0 10px;
+  position: relative;
+}
+header .allHeaderBox .bottomHeader .container .logoBox .cartBox a {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  padding: 2px;
+  position: absolute;
+  right: 2px;
+  top: -5px;
+}
+header .mediaBox {
+  display: none;
+}
+header .mediaBox .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+header .mediaBox .container .logoBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  padding: 5px 0;
+}
+header .mediaBox .container .logoBox .cartBox {
+  border-left: 1px solid #F5F5F5;
+  padding: 0 10px;
+  position: relative;
+}
+header .mediaBox .container .logoBox .cartBox a {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  padding: 2px;
+  position: absolute;
+  right: 2px;
+  top: -5px;
+}
+header .mediaBox .container .logoBox .fa-x {
+  display: none;
+}
+header .mediaBox .container .logoBox .fa-bars {
+  font-size: 20px;
+}
+header .mediaHoverBox {
+  display: none;
+}
+header .mediaHoverBox .container .topHeader {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #888888;
+}
+header .mediaHoverBox .container .topHeader span {
+  padding: 10px 0;
+  margin-left: 10px;
+  cursor: pointer;
+  color: #888888;
+}
+header .mediaHoverBox .container .topHeader .emailBox {
+  border: 1px solid #888888;
+  padding: 10px 0;
+}
+header .mediaHoverBox .container .topHeader .emailBox span {
+  margin-left: 10px;
+  color: #888888;
+  cursor: pointer;
+}
+header .mediaHoverBox .container .topHeader .emailBox select {
+  padding: 5px 15px;
+}
+header .mediaHoverBox .container .topHeader .iconBox {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  border: 1px solid #888888;
+}
+header .mediaHoverBox .container .topHeader .iconBox i {
+  padding: 10px 0;
+  margin-left: 10px;
+  cursor: pointer;
+  color: #888888;
+}
+header .mediaHoverBox .container .topHeader .iconBox i:hover {
+  color: red;
+}
+header .mediaHoverBox .container .topHeader .menuBox ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+  gap: 10px;
+  background-color: #E65540;
+}
+header .mediaHoverBox .container .topHeader .menuBox ul a {
+  margin-left: 10px;
+  color: white;
+  text-decoration: none;
+}
+header .mediaHoverBox .container .topHeader .menuBox ul a:hover {
+  color: #888888;
+}
+header .mediaHoverBox .container .topHeader .menuBox ul .homeBox {
+  margin-left: 10px;
+}
+
+main #newArrivalsBox {
+  background-image: url("../../../assets/IMAGE/master-slide-04.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 81vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main #newArrivalsBox .writeBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+main #newArrivalsBox .writeBox span {
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 2px;
+  color: rgb(255, 255, 255);
+}
+main #newArrivalsBox .writeBox h2 {
+  font-size: 60px;
+  font-weight: 500;
+  color: white;
+}
+main #newArrivalsBox .writeBox button {
+  padding: 20px 35px;
+  border-radius: 25px;
+  border: 1px solid white;
+  width: 50%;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+main #newArrivalsBox .writeBox button:hover {
+  color: white;
+  background-color: #E65540;
+  border: 1px solid #E65540;
+}
+
+@media screen and (min-width: 300px) and (max-width: 991px) {
+  header .allHeaderBox {
+    display: none;
+  }
+  header .mediaBox {
+    display: block;
+  }
+  header .mediaHoverBox {
+    display: block;
+  }
+  main #newArrivalsBox {
+    background-position: center;
+  }
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}

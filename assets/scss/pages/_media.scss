@@ -1,0 +1,18 @@
+@media screen and (min-width:300px) and (max-width:991px) {
+    header {
+        .allHeaderBox {
+            display: none;
+        }
+        .mediaBox {
+            display: block;
+        }
+        .mediaHoverBox {
+            display: block;
+        }
+    }
+    main {
+        #newArrivalsBox {
+            background-position: center;
+        }
+    }
+}
